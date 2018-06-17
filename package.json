@@ -1,0 +1,41 @@
+{
+  "name": "learning-redux",
+  "version": "1.0.0",
+  "description": "Project dedicated to learning practices about Redux and React.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alefl10/learning-redux.git"
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "Front End",
+    "Web Development"
+  ],
+  "author": "Alejandro Ferrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alefl10/learning-redux/issues"
+  },
+  "homepage": "https://github.com/alefl10/learning-redux#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1"
+  },
+  "dependencies": {
+    "redux": "^4.0.0"
+  }
+}
